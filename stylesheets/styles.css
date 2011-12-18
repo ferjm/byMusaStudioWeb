@@ -276,3 +276,14 @@ nav a:hover {
   left: -5px;
   text-shadow: rgba(0,0,0,.5) 0 0 1px;
 }
+
+/**
+* Preload background image
+*/
+#bg {
+  position:fixed;
+  /* Preserve aspet ratio */
+  min-width:100%;
+  min-height:100%;
+}
+
