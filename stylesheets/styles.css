@@ -171,6 +171,14 @@ body.left {
   -moz-border-radius: 0 !important;
 }
 
+.right header {
+  float: right;
+  width: 250px;
+  heigth: 600px;
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
 header {
   height: 86px;
   background-image: url(../images/bg-header.jpg);
@@ -196,7 +204,7 @@ header h1 a {
   height: 102px;
   top: 61px;
   left: 35px;
-  background-image: url(../images/logo.jpg); 
+  background-image: url(../images/logo.png); 
 }
 
 header h1 a { 
@@ -245,6 +253,10 @@ nav li {
 .white nav a {
   color: white;
 }
+
+.black nav a {
+  color: black;
+}  
 
 nav a {
   position: relative;
